@@ -1525,14 +1525,7 @@ footer>.logo>ul>.fbook:hover>a {
     }
 
     .contact>.logo>.fixed>a {
-        width: 40px;
-        height: 40px;
-        line-height: 40px;
-        color: rgba(252, 252, 252, 0.9);
-        position: fixed;
-        right: 30px;
-        bottom: 30px;
-        font-size: 13px;
+        display: none;
     }
 
     footer {
