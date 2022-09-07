@@ -880,9 +880,16 @@ nav>#menu-toggle {
     right: 40px;
     bottom: 40px;
     z-index: 130;
+    font-size: 11px;
     border-radius: 2px;
     background-color: rgba(77, 77, 77, 0.9);
-    transition: 3s;
+    transition: all 0.3s ease-out;
+}
+
+.contact>.logo>.fixed>a:hover {
+    color: red;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.3);
 }
 
 /* footer */
@@ -962,10 +969,6 @@ footer>.logo>ul>.fbook:hover>a {
 }
 
 @media only screen and (max-width: 600px) {
-
-    body {
-        overflow-x: hidden;
-    }
 
     header {
         height: 80px;
@@ -1228,7 +1231,7 @@ footer>.logo>ul>.fbook:hover>a {
         position: absolute;
         top: 97%;
         left: 15%;
-        transform: translate(-10%, 0);
+        transform: translate(-5%, 0);
     }
 
     .about {
